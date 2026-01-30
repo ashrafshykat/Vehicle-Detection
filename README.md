@@ -10,8 +10,6 @@ This repository contains code, data splits, and trained weights for a vehicle de
 - Labeled with **Label Studio**: **132** images (exported to YOLO `*.txt` label format)
 - Remaining images are available for further annotation to improve model performance.
 
-> Tip: Exported annotations should be placed into `data/images/` and `data/labels/` (YOLO `.txt` format) before splitting.
-
 ---
 
 ## Methodology & Pipeline 🧭
