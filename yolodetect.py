@@ -236,7 +236,7 @@ if csv_buffer:
         writer = csv.writer(f)
         writer.writerows(csv_buffer)
 
-# -------------------- CLEANUP --------------------
+# -------------------- CLEANUP ----------------------------
 if source_type in ['video', 'usb']:
     cap.release()
 if record:
