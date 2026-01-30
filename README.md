@@ -12,7 +12,7 @@ This repository contains code, data splits, and trained weights for a vehicle de
 
 ---
 
-## Methodology & Pipeline 🧭
+## Methodology & Pipeline:
 1. Label images in **Label Studio** and export to YOLO format (one `.txt` file per image).
 2. Use `train_val_split.py` to split labeled data into `data/train/` and `data/validation/` folders:
 
@@ -22,7 +22,7 @@ This repository contains code, data splits, and trained weights for a vehicle de
 
 ---
 
-## Optimization Techniques & Notes ⚡
+## Optimization Techniques & Notes:
 - Transfer learning: start from a pretrained YOLO backbone (reduces needed labeled data).
 - Data augmentation: enable random flips, mosaic, HSV jitter, and image scaling to improve generalization.
 - Training tips for small datasets:
@@ -75,7 +75,7 @@ Outputs:
 
 ---
 
-## Files & Artifacts 📁
+## Files:
 - `my_model.pt` — exported trained model (root folder)
 - `my_model/` — additional model files and training run artifacts
 - `runs/detect/train2/weights/best.pt` — best checkpoint from training
